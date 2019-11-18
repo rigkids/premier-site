@@ -1,0 +1,470 @@
+body{
+    font-family: Times New Roman, Times, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(#186895, #0d093a);
+}
+
+/*background-color: #186895;*/
+
+
+/*Logo du site !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.logooff{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+.imageacctop{
+ display: block;
+ position: relative;
+ background-image: url("photos/hill.jpg");
+ background-repeat: no-repeat;
+ width: 800px;
+ height: 420px;
+ color: #f4701c;
+ border-top-left-radius: 7px;
+ border-top-right-radius: 7px;
+}
+
+/*La partie titre et tête*/
+
+h1{
+   text-align: center;
+}
+
+
+/*ajout des couleurs*/
+
+.couleurred{
+ display: inline;
+ color: #f51a0a;
+}
+.couleurvert{
+ display: inline;
+ color: #18f549;
+}
+.couleurorange{
+ display: inline;
+ color: #f4701c;
+}
+.couleurnoir{
+ display: inline;
+ color: black;
+}
+
+/*suppression de tout les barres lien*/
+
+#conteneur a{
+ text-decoration: none;
+ color: #b01d30;
+}
+
+.listehors a{
+ text-decoration: none;
+}
+
+/*apparition des menus*/
+
+.fix{
+ position: fixed;
+ left: 8px;
+ top: 220px;
+}
+
+.niveau1 ul{
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 38px;
+    margin: 0px;
+    padding: 0px;
+    border: 0.5px, solid #534d01;
+    border-bottom: 1px solid black;
+}
+
+.niveau2 ul{
+    display: none;
+    position: absolute;
+    left: 136px;
+    padding-left: 1px;
+    top: -3px;
+    margin: 3px;
+    padding: 0px;
+    border: 0.5px, solid #534d01;
+    border-bottom: 1px solid black;
+}
+
+.niveau3 ul{
+    display: none;
+    position: absolute;
+    left: 136px;
+    padding-left: 1px;
+    top: -42px;
+    margin: 3px;
+    padding: 0px;
+    border: 0.5px, solid #534d01;
+    border-bottom: 1px solid black;
+}
+
+
+.niveau1{
+    display:contents;
+}
+
+nav li{
+    list-style-type: none;
+    position: relative;
+    width: 135px;
+    height: 35px;
+    background-color: #dbf0f9;
+    padding: 2px;
+    margin: 0px;
+    text-align: center;
+    line-height: 35px;
+}
+
+/*apparition sur souri*/
+
+nav li:hover{
+    background-color: #746e29;
+}
+
+nav li:hover ul.niveau2, nav li li:hover ul.niveau3{
+    display: block;
+}
+
+nav li li:hover ul.niveau3, nav li li li:hover ul.niveau4{
+    display: block;
+ }
+ 
+
+.menuf li a{
+    text-decoration: none;
+}
+
+nav ul a, nav il a{
+    color: black;
+}
+
+li.plus{
+    background-position: right;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid black;
+}
+
+/*transition*/
+
+nav a{
+  color: black;
+  background-color: #dbf0f9;
+  transition: all 1s ease-out;
+}
+
+nav a:hover, nav a:focus{
+  color: #c32022;
+  background-color: #746e29;
+}
+
+
+/*espacement*/
+
+
+
+/*ajout des couleurs sur les liens*/
+
+nav li a:hover{
+    color: #b01d30;
+}
+
+/*Le corps de la page*/
+
+.corpsdepage{
+ background-color: #c8cbcc;
+ border-top-left-radius: 8px;
+ border-top-right-radius: 8px;
+ border-left: 2px solid black;
+ border-right: 2px solid black;
+ margin-left: auto;
+ margin-right: auto;
+ width: 800px;
+ height: 900px;
+}
+
+/*section contenu des textes*/
+
+.section1{
+ margin-left: 0px;
+ margin-right: auto;
+ width: 275px;
+ height: 310px;
+ background-color: #7176e8;
+ border-left: 0px solid black;
+ border-right: 2px solid black;
+ border-bottom: 1px solid black;
+ border-top: 1px solid black;
+ border-bottom-right-radius: 5px;
+ border-top-right-radius: 5px;
+}
+
+.section2{
+ margin-top: -20px;
+ margin-left: 0px;
+ margin-right: auto;
+ width: 800px;
+ height: 300px;
+ background-color: #7176e8;
+ border-left: 0px solid black;
+ border-right: 2px solid black;
+ border-bottom: 1px solid black;
+ border-top: 1px solid black;
+ border-bottom-right-radius: 5px;
+ border-top-right-radius: 5px;
+}
+
+/*article*/
+
+.article1{
+ background-color: #8ea9ed;
+ border-bottom-right-radius: 5px;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 20px;
+ border-bottom-left-radius: 20px;
+ border-bottom: 2px solid black;
+ width: 150px;
+ height: 150px;
+ margin-left: 650px;
+}
+
+/*Le contenu total*/
+
+h2{
+ text-align: center;
+}
+
+/*les asides*/
+
+.aside1{
+ display: block;
+ position: absolute;
+ background-color: #dbf0f9;
+ border: 1px dotted #07072b;
+ padding: 1px;
+ right:  274px;
+ margin: 0px;
+ width: 110px;
+ height: 193px;
+ top: 780px;
+}
+
+  .aside11{
+    display: block;
+    margin: 1px;
+    padding: 4px;
+    width: 100px;
+    background-color: #99cc99;
+    display: inline;
+    margin-left: 5px;
+  }
+  
+  .paraaside1{
+   display: 
+  }
+
+/*le bas de la page*/
+
+.basdepage{
+ background-color: #0b1943;
+ border-top: 1px dashed black;
+}
+
+.element{
+  color: #FFF;
+}
+
+#conteneur
+{
+    display: flex;
+    justify-content: center;
+}
+
+/*image du bas de passe, (les séparations en bloc images)*/
+
+#conteneur .element p{
+ margin-top: 40px;
+}
+
+/*W2naCK3fP3xyS37*/
+
+/*contenu de la page Attaque pour ne pas défendre !!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*corps de page*/
+
+.corpsdepageattnodef{
+ background-color: #c8cbcc;
+ border-top-left-radius: 8px;
+ border-top-right-radius: 8px;
+ border-left: 2px solid black;
+ border-right: 2px solid black;
+ margin-left: auto;
+ margin-right: auto;
+ width: 800px;
+ height: 8245px;
+}
+
+/*section*/
+
+.sectionattnodef{
+ margin-top: 50px;
+ margin-left: 0px;
+ margin-right: auto;
+ width: 800px;
+ height: 150px;
+ background-color: #7176e8;
+ border-left: 0px solid black;
+ border-right: 2px solid black;
+ border-bottom: 1px solid black;
+ border-top: 1px solid black;
+ border-bottom-right-radius: 5px;
+ border-top-right-radius: 5px;
+}
+
+/*contribution*/
+
+.articleattnodef{
+ background-color: #8ea9ed;
+ border-bottom-right-radius: 5px;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 0px;
+ border-bottom-left-radius: 20px;
+ border-bottom: 2px solid black;
+ width: 150px;
+ height: 79px;
+ margin-left: 650px;
+}
+
+/* Les h*/
+
+.textattnodef h1{
+ text-align: left;
+}
+
+.textattnodef p{
+ margin-left: auto;
+ margin-right: auto;
+ width: 600px;
+ text-align: justify;
+ font-size: 19px;
+}
+
+/* les textes hors paragraphe*/
+
+.textattnodef .textred{
+ margin-left: auto;
+ margin-right: 10px;
+ color: #c11f2e;
+ text-align: right
+
+}
+
+.textattnodef .texthorsz{
+ margin-left: auto;
+ margin-right: 10px;
+ color: black;
+ text-align: right;
+ font-style: italic;
+}
+
+.textattnodef .texthorsdroite{
+ color: #1f07a1;
+ font-style: italic;
+ margin-left: auto;
+ margin-right: 10px;
+ text-align: right;
+}
+
+.textattnodef .textcentrer{
+ text-align: center;
+}
+
+/* Le surlignement !!!!!!!!!!!*/
+
+.textattnodef mark{
+ background-color: yellow;
+}
+
+/* les images de l'acticle Attaquer pour ne pas défendre*/
+
+.image1{
+ margin-left: auto;
+ margin-right: auto;
+ border: 0.5px dashed black;
+ padding: 1px;
+ position: relative;
+ left: 310px;
+}
+
+.image2{
+ margin-left: auto;
+ margin-right: auto;
+ border: 0.5px solid black;
+ padding: 1px;
+ position: relative;
+ left: 200px;
+}
+
+.image3{
+ margin-left: auto;
+ margin-right: auto;
+ border: 0.5px dashed black;
+ padding: 1px;
+ position: relative;
+ left: 340px;
+}
+
+.image4{
+ margin-left: auto;
+ margin-right: auto;
+ border: 0.5px dashed black;
+ padding: 1px;
+ position: relative;
+ left: 250px;
+}
+
+.image5{
+ margin-left: auto;
+ margin-right: auto;
+ border: 0.5px solid black;
+ padding: 1px;
+ position: relative;
+ left: 220px;
+}
+
+.image6{
+ margin-left: auto;
+ margin-right: auto;
+ border: 0.5px solid black;
+ padding: 1px;
+ position: relative;
+ width: 793px;
+ left: 2px;
+}
+
+
+.figure1{
+ border: 0.5px solid black;
+ padding: 2px;
+ 
+}
+
+.figuration1{
+ background-color: rgba(0,0,0,0.5);
+ color: #FFF;
+}
+
+/*Les H de la partie légende des images*/
+
+.textattnodef h3{
+ text-align: center;
+}
